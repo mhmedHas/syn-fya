@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:monkey_app_demo/const/colors.dart';
-import 'package:monkey_app_demo/screens/loginScreen.dart';
-import 'package:monkey_app_demo/utils/helper.dart';
-import 'package:monkey_app_demo/widgets/customTextInput.dart';
+import '../const/colors.dart';
+import '../screens/loginScreen.dart';
+import '../utils/helper.dart';
+import '../widgets/customTextInput.dart';
 
 class SignUpScreen extends StatelessWidget {
   static const routeName = '/signUpScreen';
