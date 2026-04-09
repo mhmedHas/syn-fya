@@ -30,38 +30,6 @@
 
 تم تطويره باستخدام **Clean Architecture** و **BLoC** لضمان أعلى جودة وقابلية للتوسع.
 
----
-
-## 🏗️ الهيكل المعماري
-lib/
-├── 📁 core/ # المكونات المشتركة
-│ ├── 📁 constants/ # الثوابت (API, Routes, Assets)
-│ ├── 📁 errors/ # إدارة الأخطاء
-│ ├── 📁 theme/ # الثيم والتصميم
-│ ├── 📁 utils/ # دوال مساعدة
-│ └── 📁 widgets/ # ويدجت عامة
-│
-└── 📁 features/ # الميزات الرئيسية
-├── 📁 auth/ # المصادقة وتسجيل الدخول
-│ ├── 📁 data/ # Models, Repositories, DataSources
-│ ├── 📁 domain/ # Entities, UseCases
-│ └── 📁 presentation/ # Screens, Widgets, BLoC
-│
-├── 📁 orders/ # إدارة الطلبات
-│ ├── 📁 data/
-│ ├── 📁 domain/
-│ └── 📁 presentation/
-│
-├── 📁 tracking/ # تتبع الشحنات والمسارات
-│ ├── 📁 data/
-│ ├── 📁 domain/
-│ └── 📁 presentation/
-│
-└── 📁 profile/ # الملف الشخصي والإعدادات
-├── 📁 data/
-├── 📁 domain/
-└── 📁 presentation/
----
 
 ## ✨ الميزات الرئيسية
 
@@ -110,18 +78,39 @@ lib/
 ## 📸 لقطات الشاشة
 
 ### تطبيق السائقين
-<p align="center">
-  <img src="assets/screenshots/driver_login.jpg" width="200" alt="Login Screen">
-  <img src="assets/screenshots/driver_dashboard.jpg" width="200" alt="Dashboard">
-  <img src="assets/screenshots/driver_map.jpg" width="200" alt="Map Tracking">
-  <img src="assets/screenshots/driver_orders.jpg" width="200" alt="Orders List">
-</p>
+## 📸 لقطات الشاشة
 
-### منصة الويب
-<p align="center">
-  <img src="assets/screenshots/web_dashboard.jpg" width="400" alt="Web Dashboard">
-  <img src="assets/screenshots/web_orders.jpg" width="400" alt="Orders Management">
-</p>
+### تطبيق سنفايا - واجهة السائقين
+
+<div align="center">
+  <img src="assets/screenshots/Screenshot_1734136392.png" width="250" alt="شاشة تسجيل الدخول">
+  <img src="assets/screenshots/Screenshot_1734136424.png" width="250" alt="اللوحة الرئيسية">
+  <img src="assets/screenshots/Screenshot_1734136431.png" width="250" alt="قائمة الطلبات">
+  <img src="assets/screenshots/Screenshot_1734136447.png" width="250" alt="تفاصيل الطلب">
+  <img src="assets/screenshots/Screenshot_1734136458.png" width="250" alt="خريطة التتبع">
+  <img src="assets/screenshots/Screenshot_1734136462.png" width="250" alt="تأكيد الاستلام">
+  <img src="assets/screenshots/Screenshot_1734136468.png" width="250" alt="الملف الشخصي">
+  <img src="assets/screenshots/Screenshot_1734136471.png" width="250" alt="الإشعارات">
+  <img src="assets/screenshots/Screenshot_1734136473.png" width="250" alt="سجل الطلبات">
+  <img src="assets/screenshots/Screenshot_1734136524.png" width="250" alt="تقييم السائق">
+</div>
+
+---
+
+### وصف اللقطات:
+
+| الصورة | الوصف |
+|--------|-------|
+| `Screenshot_1734136392.png` | شاشة تسجيل الدخول - إدخال رقم الهاتف وكلمة المرور |
+| `Screenshot_1734136424.png` | اللوحة الرئيسية - إحصائيات الطلبات اليومية |
+| `Screenshot_1734136431.png` | قائمة الطلبات - الطلبات المتاحة والجديدة |
+| `Screenshot_1734136447.png` | تفاصيل الطلب - معلومات المرسل والمستلم |
+| `Screenshot_1734136458.png` | خريطة التتبع - عرض المسار الأمثل |
+| `Screenshot_1734136462.png` | تأكيد الاستلام - إثبات التوصيل والتوقيع |
+| `Screenshot_1734136468.png` | الملف الشخصي - بيانات السائق وإحصائياته |
+| `Screenshot_1734136471.png` | الإشعارات - تنبيهات الطلبات الجديدة |
+| `Screenshot_1734136473.png` | سجل الطلبات - تاريخ الطلبات السابقة |
+| `Screenshot_1734136524.png` | تقييم السائق - نظام التقييم والمكافآت |
 
 > *سيتم إضافة الصور قريبًا*
 
